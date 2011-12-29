@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-enumi
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 This is a translation of the manual for enumitem.
@@ -26,7 +24,6 @@ This is a translation of the manual for enumitem.
 %files
 %doc %{_texmfdistdir}/doc/latex/translation-enumitem-de/enumitem-de.pdf
 %doc %{_texmfdistdir}/doc/latex/translation-enumitem-de/enumitem-de.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -37,5 +34,3 @@ This is a translation of the manual for enumitem.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
