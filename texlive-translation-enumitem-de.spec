@@ -34,3 +34,16 @@ This is a translation of the manual for enumitem.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111004-2
++ Revision: 757082
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111004-1
++ Revision: 719797
+- texlive-translation-enumitem-de
+- texlive-translation-enumitem-de
+- texlive-translation-enumitem-de
+
