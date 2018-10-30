@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-translation-enumitem-de
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	Enumitem documentation, in German
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/enumitem/de
