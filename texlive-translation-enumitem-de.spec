@@ -1,6 +1,6 @@
 Name:		texlive-translation-enumitem-de
 Version:	24196
-Release:	1
+Release:	2
 Summary:	Enumitem documentation, in German
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/enumitem/de
